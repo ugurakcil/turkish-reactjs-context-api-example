@@ -7,6 +7,7 @@ function App() {
     <div>
     <OrdekSaglayici>
       <OrdekBelirleyici />
+      <CirkinOrdekBelirleyici />
     </OrdekSaglayici>
     <hr />
     <CirkinOrdekSaglayici>
