@@ -7,7 +7,7 @@ ReactJS'te Çoklu Context API kullanımına örnek olması için basit bir örne
 
 Büyük bir projede herşeyi tek bir context'e bağlamak performans sorunları yaratır. Çok fazla ayırmak da bağlamların yönetimini zorlaştırabilir. Bu yüzden context ve component children arasında denge kurmak önemli. 
 
-Projeyi başlangıçta hiçbir context oluşturmadan başlatın ancak componentleri App'e kadar ayırabildiğiniz kadar ayırın. Unutmayın, ilerleyen zamanlarda App üzerinde context yönetimini gerçekleştireceksiniz. Prop drilling yöntemiyle componentler arasında verileri aktarın. Ancak erişimler çok kompleks ise yani prop drilling uygulamak zor ise bu alana context-api uygulamak doğru bir seçim olabilir.
+Projelerinizi başlangıçta hiçbir context oluşturmadan başlatın ancak componentleri App'e kadar ayırabildiğiniz kadar ayırın. Unutmayın, ilerleyen zamanlarda App üzerinde context yönetimini gerçekleştireceksiniz. Prop drilling yöntemiyle componentler arasında verileri aktarın. Ancak erişimler çok kompleks ise yani prop drilling uygulamak zor ise bu alana context-api uygulamak doğru bir seçim olmaya başlayacak. Artık zamanı geldi, projenize bir contexts klasörü oluşturup her context için ayrı bir dosya oluşturabilirsiniz. (Örnekte bazı mekaniklerin anlaşılabilmesi için tek dosyada kullandım). Böylece sistemli bir şekilde context-api kullanabilirsiniz.
 
 ## Kurulum
 
